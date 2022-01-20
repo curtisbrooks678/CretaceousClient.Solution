@@ -1,0 +1,20 @@
+@using CretaceousClient.Models;
+
+@model CretaceousClient.Models.Animal
+
+<h1>Animal Info:</h1>
+
+<ul>
+  <li>ID: @Model.AnimalId</li>
+  <li>ID: @Model.Name</li>
+  <li>ID: @Model.Species</li>
+  <li>ID: @Model.Age</li>
+  <li>ID: @Model.Gender</li>
+</ul>
+<br>
+
+<a href="/Animals/Edit/@(Model.AnimalId)"><p>Edit</p></a>
+<br>
+
+<a href="/Animals"><p>Return</p></a>
+

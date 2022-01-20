@@ -20,7 +20,7 @@ namespace CretaceousClient.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("Index", "Animals");
         }
 
         public IActionResult Privacy()
